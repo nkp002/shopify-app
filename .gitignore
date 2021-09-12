@@ -1,21 +1,24 @@
-# Environment Configuration
-.env
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Dependency directory
-node_modules
+# dependencies
+/scratch-app-react/node_modules
+/shopify-node-app/node_modules
+/scratch-app-react/.pnp
+/scratch-app-react/.pnp.js
 
-# Test coverage directory
-coverage
+# testing
+/scratch-app-react/coverage
 
-# Ignore Apple macOS Desktop Services Store
-.DS_Store
+# production
+/scratch-app-react/build
 
-# Logs
-logs
-*.log
+# misc
+/scratch-app-react/.DS_Store
+/scratch-app-react/.env.local
+/scratch-app-react/.env.development.local
+/scratch-app-react/.env.test.local
+/scratch-app-react/.env.production.local
 
-# ngrok tunnel file
-config/tunnel.pid
-
-# next build output
-.next/
+/scratch-app-react/npm-debug.log*
+/scratch-app-react/yarn-debug.log*
+/scratch-app-react/yarn-error.log*

@@ -7,17 +7,6 @@ import { StaticRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Example from './example';
 import Dashboard from './dashboard';
 
-import { Heading, Page } from "@shopify/polaris";
-
-/*const Index = () => (
-  <Page>
-    <Heading>Shopify app with Node and React 🎉</Heading>
-  </Page>
-);
-
-export default Index;
-*/
-
 const GlobalStyle = createGlobalStyle`
   html, body {
     margin: 0;
@@ -30,7 +19,7 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-class Demo extends Component {
+class App extends Component {
   render() {
     return (
       <Router>
@@ -50,4 +39,4 @@ class Demo extends Component {
   }
 }
 
-export default Demo;
+export default App;

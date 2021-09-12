@@ -1,0 +1,7 @@
+{
+  "redirectUri": "https://www.trusted-doctor.com/auth/callback",
+  "sharedSecret": "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",
+  "apiKey": "dd4f4a221d7560864a864a24f94394e6",
+  "shop": "v-online-clothing.myshopify.com",
+  "scopes":"write_products,write_customers,write_draft_orders"	
+}
