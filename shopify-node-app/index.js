@@ -23,7 +23,6 @@ const shopifyToken = new ShopifyToken(config);
 
 const app = express()
 const { MongoClient } = require('mongodb');
-//const uri = "mongodb+srv://admin:admin@cluster0.ccczg.mongodb.net/vclothing?retryWrites=true&w=majority";
 const uri = "mongodb://admin:admin@127.0.0.1:27017/?retrywrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 // parse requests of content-type: application/json
